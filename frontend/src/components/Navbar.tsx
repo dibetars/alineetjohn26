@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './Navbar.module.css'
+import styles from './nav.module.css'
 
 function scrollToId(id: string) {
   const el = document.getElementById(id)
