@@ -134,40 +134,6 @@ export const RSVP: React.FC = () => {
           {message && <p>{message}</p>}
         </div>
       </form>
-      <div className={styles.registerBanner} aria-label="Registry websites">
-        <div className={styles.registerContent}>
-          <h2 className={styles.registerTitle}>Register</h2>
-          <div className={styles.registerRow}>
-            <a
-              className={styles.brandText}
-              href="https://www.bedbathandbeyond.com/"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="Bed Bath & Beyond registry"
-            >
-              BED BATH &amp; BEYOND
-            </a>
-            <a
-              className={styles.brandText}
-              href="https://www.crateandbarrel.com/"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="Crate & Barrel registry"
-            >
-              Crate&amp;Barrel
-            </a>
-            <a
-              className={styles.brandText}
-              href="https://www.amazon.com/wedding"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="Amazon registry"
-            >
-              amazon
-            </a>
-          </div>
-        </div>
-      </div>
     </div>
   )
 }
