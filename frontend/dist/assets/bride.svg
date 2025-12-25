@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="360" viewBox="0 0 360 360">
+  <defs>
+    <linearGradient id="brideGrad" x1="0" x2="1" y1="1" y2="0">
+      <stop offset="0" stop-color="#f4e7d6"/>
+      <stop offset="1" stop-color="#b68b5f"/>
+    </linearGradient>
+  </defs>
+  <circle cx="180" cy="180" r="180" fill="url(#brideGrad)"/>
+  <text x="180" y="200" font-size="64" text-anchor="middle" font-family="Playfair Display" fill="#1b1b1b">A</text>
+</svg>

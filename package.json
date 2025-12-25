@@ -1,0 +1,13 @@
+{
+  "name": "alineetjohn26",
+  "private": true,
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "npm run -w frontend dev",
+    "build": "npm run -w frontend build",
+    "preview": "npm run -w frontend preview",
+    "typecheck": "npm run -w frontend typecheck"
+  }
+}

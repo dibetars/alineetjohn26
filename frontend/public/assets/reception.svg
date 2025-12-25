@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="534" viewBox="0 0 800 534" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="receptionGrad" x1="1" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#f4e7d6"/>
+      <stop offset="1" stop-color="#b68b5f"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="534" fill="url(#receptionGrad)"/>
+  <text x="400" y="270" font-size="48" text-anchor="middle" font-family="Playfair Display" fill="#1b1b1b">Reception</text>
+</svg>

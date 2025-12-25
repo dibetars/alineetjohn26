@@ -1,0 +1,107 @@
+.wrap {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.header {
+  text-align: center;
+}
+.form {
+  display: grid;
+  gap: 12px;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+.row {
+  display: grid;
+  gap: 8px;
+}
+.label {
+  font-weight: 600;
+}
+.input, .textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+.radioRow {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.error {
+  color: #b00020;
+  font-size: 14px;
+}
+.submit {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  padding: 12px 16px;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.registry {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 16px;
+  justify-content: center;
+}
+.regLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid var(--accent);
+  padding: 10px 14px;
+  border-radius: 999px;
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.registerBanner {
+  margin-top: 24px;
+  background: var(--sage);
+  padding: 40px 0;
+}
+.registerContent {
+  display: grid;
+  justify-items: center;
+  gap: 24px;
+  width: 100%;
+  padding: 0 24px;
+}
+.registerTitle {
+  text-align: center;
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  font-size: clamp(20px, 4vw, 28px);
+  margin: 0 0 24px;
+}
+.registerRow {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  align-items: center;
+  justify-items: center;
+  width: 100%;
+}
+.brandText {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: clamp(22px, 5vw, 44px);
+  letter-spacing: 0.5px;
+}
+@media (max-width: 768px) {
+  .registerRow {
+    grid-template-columns: 1fr;
+  }
+}

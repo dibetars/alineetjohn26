@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="grad2" x1="0" x2="1" y1="1" y2="0">
+      <stop offset="0" stop-color="#f4e7d6"/>
+      <stop offset="1" stop-color="#b68b5f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#grad2)"/>
+  <text x="800" y="450" font-size="64" text-anchor="middle" font-family="Playfair Display" fill="#1b1b1b">Hero 2</text>
+</svg>
